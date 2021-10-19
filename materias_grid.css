@@ -1,0 +1,62 @@
+body{
+
+    background-color: #85929E;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #85929E;
+}
+
+.caja {
+    border: 5px solid #283747;
+    text-align: center;
+    padding: auto;
+    background-color: beige;
+    grid-column: 1/6;   
+}
+
+
+.materia_ilvl{
+ border: 5px solid #283747;
+ text-align: center;
+ height: 60px;
+ padding-top: 10px;
+}
+.materia_iilvl{
+    border: 5px solid #283747;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+   }
+   .materia_iiilvl{
+    border: 5px solid #283747;
+    text-align: center;
+    height: 60px;
+    padding-top: 10px;
+   }
+
+
+#one_i{
+    grid-column: 1/3;
+}
+
+#two_i{
+    grid-column: 3/5;
+}
+#one_ii{
+    grid-column: 1/3;
+}
+#two_ii{
+    grid-column: 3/5;
+}
+#seven_ii{
+    grid-column: 4/6;
+}
+
+#one_iii{
+    grid-column: 1/3;
+}
